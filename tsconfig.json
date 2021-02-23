@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "declaration": true,
+        "outDir": "./build",
+        "target": "es6",
+        "rootDir": "./src",
+
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
